@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <title>Works</title>
+    <style>
+        :root {
+            --primary: #7600b1;
+        }
+
+        nav {
+            border: 2px solid var(--primary);
+            min-width: 263px;
+            margin: 10px auto;
+            border-radius: 5px;
+            background-color: aliceblue;
+            font-size: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0px;
+        }
+
+        nav ul li {
+            list-style: none;
+            color: var(--primary);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        #list2 {
+            text-decoration: underline;
+        }
+
+        main {
+            height: 670px;
+            padding: 165px 0px;
+        }
+
+        #textingBox {
+            margin: auto;
+            width: max-content;
+        }
+
+        #textingBox p {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #textingBox form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #textingBox form textarea {
+            height: 80px;
+            width: 300px;
+            padding: 5px;
+            background-color: aliceblue;
+            border: 1px solid var(--primary);
+            border-radius: 10px;
+        }
+
+        #textingBox form textarea {
+            outline: none;
+        }
+
+        #textingBox form button {
+            height: 30px;
+            background-color: rgb(45, 157, 255);
+            border-radius: 10px;
+        }
+
+        #textingBox form button:hover {
+            height: 30px;
+            background-color: rgb(103, 184, 255);
+        }
+
+        #textingBox form button:active {
+            height: 30px;
+            background-color: rgb(45, 157, 255)
+        }
+
+        #textingBox form button::after {
+            height: 30px;
+            background-color: rgb(45, 255, 55)
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="list" id="list1"><a href="index.html">Home</a></li>
+                <li class="list" id="list2"><a href="services.html">Ideas</a></li>
+                <li class="list" id="list3"><a href="blog.html">Works</a></li>
+                <li class="list" id="list4"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="chatbox" id="textingBox">
+                <form action="/services.html">
+                    <label for="idea">
+                        <textarea name="idea" id="text" cols="30" rows="10" placeholder="drop your idea"></textarea>
+                    </label>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </main>
+    </header>
+    <script>
+    </script>
+</body>
+
+</html>

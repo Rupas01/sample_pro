@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <title>home</title>
+    <style>
+        :root {
+            --primary: #7600b1;
+        }
+
+        nav {
+            border: 2px solid var(--primary);
+            min-width: 263px;
+            margin: 10px auto;
+            border-radius: 5px;
+            background-color: aliceblue;
+            font-size: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0px;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        #list1 {
+            text-decoration: underline;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        main{
+            height: 796px;
+            display: flex;
+        }
+
+        #inside-main{
+            width:max-content;
+            margin: auto;
+            text-align: center;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="list" id="list1"><a href="index.html">Home</a></li>
+                <li class="list" id="list4"><a href="services.html">Ideas</a></li>
+                <li class="list" id="list2"><a href="blog.html">Works</a></li>
+                <li class="list" id="list3"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="inside-main">
+            <p>Welcome to my page</p>
+            <p>I don't have any idea about the purpose of this website,</p>
+            <p>You can suggest me by giving ideas. Goto ideas tab and drop your message</p>
+        </div>
+    </main>
+</body>
+
+</html>
